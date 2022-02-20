@@ -1,4 +1,4 @@
-# Generate thumbnail containers from videos like YouTube
+# Generate Thumbnail Containers from videos like YouTube
 
 This repository explains the process to generate thumbnail containers from videos. In recent years, several methods have been designed to improve the demanding timeline manipulation for video browsing. One of the most popular methods for web-based video players is the use of lightweight thumbnail containers. Users can skim through the video player for efficiency and instantly preview a lengthy video, by watching the thumbnail preview in the web player interface. As the thumbnails are easy to integrate and navigate in web-based video players, several famous video-on-demand (VoD) streaming platforms adopt these in their end-user video players [ref1](https://arxiv.org/abs/2201.09049).
 
