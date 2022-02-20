@@ -5,7 +5,7 @@ This repository explains the process to generate thumbnail contaienrs from video
 
 <p>
   <center>
-<img src="https://github.com/iamgmujtaba/tc-generator/blob/master/figures/thumb_sample.png" width="550" height="300">
+<img src="https://github.com/iamgmujtaba/vid2tc/blob/master/figures/thumb_sample.png" width="550" height="300">
     </center>
 <em>
   Orientation of thumbnails on a single thumbnail container image (left), and the thumbnail usage for instant preview in the client webbased YouTube video player (right) .
