@@ -14,7 +14,7 @@ def parse_opts():
     # 160x90 is the default thumbnail size in the YouTube web player
     parser.add_argument('--thumb_width', type=str, default=160, help='Width of the each thumbnail')
     parser.add_argument('--thumb_height', type=str, default=90, help='Height of the each thumbnail')
-    parser.add_argument('--thumb_interval', type=str, default=1, help='Extract first frame as thumbnails at every 1 second')
+    parser.add_argument('--thumb_interval', type=str, default=1, help='Extract first frame as thumbnails in every second')
     parser.add_argument('--thumb_container', type=str, default=5, help='5x5 (row,cloumn) is default Thumbnail Containers')
 
     return parser.parse_args()
