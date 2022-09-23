@@ -64,14 +64,7 @@ This is code is used in the following papers. If you use this code for your rese
 @article{mujtaba2022ltc,
   title={LTC-SUM: Lightweight Client-driven Personalized Video Summarization Framework Using 2D CNN},
   author={Mujtaba, Ghulam and Malik, Adeel and Ryu, Eun-Seok},
-  journal={arXiv preprint arXiv:2201.09049},
-  year={2022}
-}
-
-@article{mujtaba2022ltc,
-  title={LTC-GIF: Attracting More Clicks on Feature-length Sports Videos},
-  author={Mujtaba, Ghulam and Choi, Jaehyuk and Ryu, Eun-Seok},
-  journal={arXiv preprint arXiv:2201.09077},
+  journal={IEEE Access},
   year={2022}
 }
 
