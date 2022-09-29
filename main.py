@@ -35,7 +35,7 @@ def start_process(input_path, output_path):
             print('-'*60)
             print('File Name: ', video)
 
-            video_file_name = video.split('\\')[-1].split(".")[0]
+            video_file_name = video.split('/')[-1].split(".")[0]
 
             main_video_path = os.path.join(output_path, video_file_name)
             seg_path = os.path.join(main_video_path, 'segments')
