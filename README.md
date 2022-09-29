@@ -20,6 +20,12 @@ This repository explains the process to generate thumbnail containers from video
 git clone https://github.com/iamgmujtaba/vid2tc
 cd vid2tc
 ```
+
+- Create conda environment and install packinages
+```
+conda create -n vid2tc python=3.8 -y
+conda activate vid2tc
+```
 - To install dependencies using pip please type the command.
 ```shell
 pip install -r requirements.txt
