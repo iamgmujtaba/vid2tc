@@ -1,3 +1,4 @@
 Pillow
 click
 opencv-python
+tqdm
