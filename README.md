@@ -1,6 +1,6 @@
 # Generate Thumbnail Containers from Videos like YouTube
 
-This repository explains the process of generating thumbnail containers from videos. In recent years, several methods have been designed to improve the demanding timeline manipulation for video browsing. One of the most popular methods for web-based video players is using lightweight thumbnail containers. Users can easily skim through the video player and instantly preview a lengthy video by watching the thumbnail preview in the web player interface. As the thumbnails are easy to integrate and navigate in web-based video players, several famous video-on-demand (VoD) streaming platforms adopt these in their end-user video players [ref1](https://arxiv.org/abs/2201.09049).
+This repository explains the process of generating thumbnail containers from videos. In recent years, several methods have been designed to improve the demanding timeline manipulation for video browsing. One of the most popular methods for web-based video players is using lightweight thumbnail containers. Users can quickly skim through the video player and instantly preview a lengthy video by watching the thumbnail preview in the web player interface. As the thumbnails are easy to integrate and navigate in web-based video players, several famous video-on-demand (VoD) streaming platforms adopt these in their end-user video players [ref1](https://arxiv.org/abs/2201.09049).
 
 <p align="center">
   <img src="https://github.com/iamgmujtaba/vid2tc/blob/master/figures/thumb_sample.png" width="550" height="300">
@@ -17,7 +17,7 @@ This repository explains the process of generating thumbnail containers from vid
 - [References](#references)
 
 ## Overview
-This project provides a framework to generate thumbnail containers from videos, similar to the functionality seen on platforms like YouTube. The generated thumbnails can be used to provide instant previews in web-based video players, enhancing the user experience by allowing efficient video browsing.
+This project provides a framework to generate thumbnail containers from videos, similar to the functionality on platforms like YouTube. The generated thumbnails can provide instant previews in web-based video players, enhancing the user experience by allowing efficient video browsing.
 
 ## Installation
 To install and set up the project, follow these steps:
@@ -33,7 +33,7 @@ git clone https://github.com/iamgmujtaba/vid2tc.git
 cd vid2tc
 ```
 
-- Create anaconda environment and install packages
+- Create an anaconda environment and install packages
 ```bash
 conda create -n vid2tc python=3.10 -y
 conda activate vid2tc
