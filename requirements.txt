@@ -1,4 +1,3 @@
-moviepy
 Pillow
 click
 opencv-python
