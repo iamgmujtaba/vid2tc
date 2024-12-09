@@ -94,10 +94,11 @@ def start_process(input_path, output_path, args):
                 create_tc_csv(thumbnail_path, main_video_path)
             
             # Split the video into HLS segments
-            if not os.path.exists(seg_path):
-                print(seg_path)
-                os.makedirs(seg_path)
-                generate_segments(video, seg_path + '/', args.seg_len)
+            if args.segments:
+                if not os.path.exists(seg_path):
+                    print(seg_path)
+                    os.makedirs(seg_path)
+                    generate_segments(video, seg_path + '/', args.seg_len)
             
             # Extract audio
             if args.audio:
@@ -123,13 +124,14 @@ def parse_opts():
     parser.add_argument('-o', '--out_path', type=str, default='./output/', help='Output videos path')
     
     parser.add_argument('-s', '--seg_len', type=int, default=10, help='Segments length (seconds)')
+    parser.add_argument('--segments', type=bool, default=False, help='Extract segments (True/False)')
     parser.add_argument('-a','--audio', type=bool, default=False, help='Extract audio (True/False)')
     parser.add_argument('-f','--frames', type=bool, default=False, help='Extract video frames (True/False)')
     
     # Thumbnail arguments
     parser.add_argument('--thumb_width', type=int, default=160, help='Thumbnail width')
     parser.add_argument('--thumb_height', type=int, default=90, help='Thumbnail height')
-    parser.add_argument('--thumb_interval', type=int, default=1, help='Thumbnail extraction interval in seconds')
+    parser.add_argument('--thumb_interval', type=int, default=1, help='Thumbnail extraction interval in seconds)
     parser.add_argument('--thumb_container', type=int, default=5, help='Thumbnail container size (e.g. 5 means 5x5 grid)')
     
     return parser.parse_args()
