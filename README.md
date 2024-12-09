@@ -13,8 +13,7 @@ This repository explains the process of generating thumbnail containers from vid
 - [Overview](#overview)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Example](#example)
 - [References](#references)
 
 ## Overview
@@ -70,7 +69,7 @@ To generate thumbnail containers and prepare video segments, run the following s
 python .\main.py -i .\input\ -o .\output\
 ```
 
-## Citation
+## References
 This code is referenced in the following papers. If you utilize this code for your research, please cite our work.
 ```bash
 @article{mujtaba2023frc,
